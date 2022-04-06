@@ -6,3 +6,4 @@ ps
 /bin//////////////////////                          ls
 /bin/bin/bin/bin/bin ls
 /bin/ls
+/ # Cualquier cantidad de estos slash deberia arrojar "(name of executable): (# of error): /: Permission denied"
