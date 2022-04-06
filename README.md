@@ -5,4 +5,6 @@
 
 ## Description
 In this repository will be the error tests for the Simple Shell Project
-
+## Use the test
+To use the tests you must run your program in non-interactive mode with the following commands:
+`cat "test_errors" | ./hsh`
