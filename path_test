@@ -1,0 +1,16 @@
+echo <<<<<     FIRST TEST of the "ls -la" command separates with spaces and with path /usr/bin/ls SUCCESS     >>>>>
+echo          
+/usr/bin/ls        -la
+echo           
+echo <<<<<     SECOND TEST of the "ls -la" command with path with spaces before: SUCCESS       >>>>>
+echo              
+	/usr/bin/ls -la
+echo               
+echo <<<<<      THIRD TEST of the command "ls -la" with spaces before and after of /bin/ls: SUCCESS   >>>>>
+echo              
+		/bin/ls		-la
+echo               
+echo <<<<<       FOURTH TEST of the "ls -l -a" command with spaces before and after and -l separates and -a separates: SUCCESS       >>>>>
+echo              
+	/bin/ls		-l		-a
+echo                 

@@ -1,0 +1,24 @@
+echo <<<<<     FIRST TEST of the "ls" command without spaces: SUCCESS     >>>>>
+echo            
+ls
+echo              
+echo <<<<<     SECOND TEST of the "ls" command with spaces after: SUCCESS       >>>>>
+echo              
+ls                 
+echo             
+echo <<<<<      THIRD TEST of the command "ls" with various spaces before: SUCCESS   >>>>>
+echo                
+               ls
+echo                 
+echo <<<<<       FOURTH TEST of the "ls" command with spaces before and after: SUCCESS       >>>>>
+echo            
+   ls   
+echo
+echo <<<<<       FIFTH TEST of the "ls" command with tabulation before: SUCCESS         >>>>  
+echo                
+		ls
+echo                    
+echo <<<<<       SIXTH TEST of the "ls" command with tab before and spaces after: SUCCESS            >>>>>
+echo                 
+	ls   
+echo                      
