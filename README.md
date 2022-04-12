@@ -13,3 +13,15 @@ To use the tests you must run your program in non-interactive mode with the foll
 Other for execute:
 
 `./execute_script_LM_CV` and after execute this script open this file `output_groupLMCV.txt`
+
+## Configuration
+
+Clone the repo.
+
+Paste your shell executable file inside the "test_shell_holberton" directory.
+
+Open the file config and update the variable SHELL with the name of your shell.
+
+## Run
+
+Usage ./c17_simple_shell.bash
