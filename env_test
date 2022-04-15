@@ -1,0 +1,8 @@
+echo <<<<<     FIRST of the "env" command with spaces after and tabs before: SUCCESS       >>>>>
+echo              
+		env    
+echo                     
+echo <<<<<       SECOND TEST of the "env" command with spaces and tabs before and after: SUCCESS       >>>>>
+echo                 
+		env     	
+echo                     

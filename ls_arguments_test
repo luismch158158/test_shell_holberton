@@ -1,0 +1,24 @@
+echo <<<<<     FIRST TEST of the ls command with /bin/ls: SUCCESS     >>>>>
+echo                 
+/bin/ls
+echo             
+echo <<<<<     SECOND TEST of the "ls -la" command with path /bin/ls and tab before: SUCCESS       >>>>>
+echo         
+	/bin/ls -la
+echo
+echo <<<<<      THIRD TEST of the command "ls -la" with various / after /bin/: SUCCESS   >>>>>
+echo          
+/bin///////////////////ls -la
+echo         
+echo <<<<<       FOURTH TEST of the "ls -la" command with path /usr/bin/ls and tabs before and after: SUCCESS       >>>>>
+echo            
+	/usr/bin/ls	-la
+echo             
+echo <<<<<       FIFTH TEST of the "ls -la" command with tabulation between ls and -la and space before ls: SUCCESS         >>>>>
+echo                  
+		ls       -la
+echo           
+echo <<<<<       SIXTH TEST of the "pwd" command with tab before: SUCCESS            >>>>>
+echo                 
+	pwd
+echo                

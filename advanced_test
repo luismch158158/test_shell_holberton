@@ -1,0 +1,6 @@
+
+ls ; ls -ls ; pwd
+cd ; pwd ; cd - ; pwd ; cd -; pwd
+setenv MAIL 123; setenv BROWSER chrome ; env
+mkdir asd; ls ; rmdir asd ; ls
+unsetenv MAIL ; setenv QWE 123 ; env

@@ -1,0 +1,18 @@
+echo "echo <<<<<<<<<<<<<<<-------------INICIO DE TEST--------------->>>>>>>>>>>>>>>>>>>" | ./hsh >> output_groupLMCV.txt
+echo "echo INICIO DE PRUEBAS - LUIS MANRIQUE Y CHRISTIAN VARAS" | ./hsh >> output_groupLMCV.txt
+echo "echo                          " | ./hsh >> output_groupLMCV.txt
+cat "ls_test" | ./hsh >> output_groupLMCV.txt
+echo "echo                          " | ./hsh >> output_groupLMCV.txt
+echo "echo --------------------------------------------" | ./hsh >> output_groupLMCV.txt
+echo "echo                          " | ./hsh >> output_groupLMCV.txt
+cat "ls_arguments_test" | ./hsh >> output_groupLMCV.txt
+echo "echo                          " | ./hsh >> output_groupLMCV.txt
+echo "echo ---------------------------------" | ./hsh >> output_groupLMCV.txt
+echo "echo                          " | ./hsh >> output_groupLMCV.txt
+cat "path_test" | ./hsh >> output_groupLMCV.txt
+echo "echo                          " | ./hsh >> output_groupLMCV.txt
+echo "echo ---------------------------------" | ./hsh >> output_groupLMCV.txt
+echo "echo                          " | ./hsh >> output_groupLMCV.txt
+cat "env_test" | ./hsh >> output_groupLMCV.txt
+echo "echo                          " | ./hsh >> output_groupLMCV.txt
+echo "echo <<<<<<<<<<<<<<<-------------FIN DE TEST--------------->>>>>>>>>>>>>>>>>>>" | ./hsh >> output_groupLMCV.txt
