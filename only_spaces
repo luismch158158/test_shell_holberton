@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Test for only spaces
+
+echo "      " | ./hsh
+echo $?
+
+echo " " | ./hsh
+echo $?
+
+echo " 	 " | ./hsh
+echo $?
+
+# Result would be:
+# 0
+# 0
+# 0

@@ -1,0 +1,27 @@
+#!/bin/bash
+# After each line we put "echo $?" to know the exit status
+
+echo "exit" | ./hsh
+echo $?
+
+echo "exit 1000" | ./hsh
+echo $?
+
+echo "exit 42" | ./hsh
+echo $?
+
+echo "exit -42" | ./hsh
+echo $?
+
+echo "exit TEST" | ./hsh
+echo $?
+
+# OUTPUT:
+
+# 0
+# 232
+# 42
+# ./hsh: 1: exit: Illegal number: -42
+# 2
+# ./hsh: 1: exit: Illegal number: TEST
+# 2
