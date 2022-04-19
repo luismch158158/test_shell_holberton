@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "setenv NEW_VAR" | ./hsh
+echo $?
+echo "setenv NEW_VAR Hola" | ./hsh
+echo $?
+echo "setenv NEW_VAR Too Many Arguments" | ./hsh
+echo $?
+
+# Output:
+# 0
+# 0
+# An error message (something like: "./hsh: setenv: Too many arguments")
+# 2
+
+# If is different is wrong
