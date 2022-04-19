@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "unsetenv NOT_EXIST" | ./hsh
+echo $?
+
+# Output:
+# 0
+
+# If is different is wrong
