@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "env DISPLAY=gnu:0 LOGNAME=foo vim" | ./hsh
+echo "    env" | ./hsh
+echo "env    " | ./hsh
+echo "/bin/env" | ./hsh
+echo "env
+env
+env" | ./hsh
+echo "     env
+     ls     
+ls -l
+  lsenv" | ./hsh
